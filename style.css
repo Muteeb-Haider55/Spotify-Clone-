@@ -1,7 +1,7 @@
 body{
     font-family: "Montserrat", serif;
     margin: 0;
-    background-color:#000;
+    background-color:#000000;
     overflow: hidden;
 }      
 .main{
@@ -17,11 +17,11 @@ body{
     margin-right: 0.5rem;
 }
 .main-content{
-    background-color: #ffffff;
+    background-color: #1d1d1d;
     flex: 1;
    border-radius: 1rem;  /* 1rem =  16px */
    overflow: auto;
-   color: white;
+  
 }
 .music-player{
     background-color: black;
@@ -36,7 +36,7 @@ a {
     color: white;
 }
 .nav{
-    background-color: #121212;
+    background-color: #1d1d1d;
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
@@ -61,7 +61,7 @@ a {
 }
 .library{
     height: 100%;
-    background-color: #121212;
+    background-color: #1d1d1d;
     border-radius: 1rem;
     margin-top: 0.5rem;
     padding: 0.5rem 0.75rem;
@@ -113,4 +113,31 @@ a {
     height: 2rem;
  
     width: fit-content;
+}
+.profile{
+    color: white;
+}
+.sticky-nav{
+    position: sticky;
+    top :0;
+    background-color: #232323;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 0 .5rem 0 ;
+}
+.sticky-nav-icons img{
+    margin-left: 0.75rem;
+}
+.sticky-nav-options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-item{
+    margin-right: 1rem;
+}
+.dark-badge{
+    background-color: black;
+color: white;
 }
